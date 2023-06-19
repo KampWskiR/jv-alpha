@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--------------------------- Details --------------------------------->
+  <title>JumpingValue</title>
+  <meta name="description" content="The Best Jumping Pets Simulator Value List.">
+  <meta property="og:image" content="https://jumpingvalue.netlify.app/assets/banner-logo.png">
+  <!--------------------------- Metas etc --------------------------------->
+  <link rel="icon" href="assets/logoup.png">
+  <link href="style.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="url" content="https://jumpingvalue.netlify.app/">
+  <meta name="keywords" content="jumpingvalue, jumping, value, jv, jumping pets simulator, pets, pet, simulator, jps, roblox, yoshi, x, codes, list, valuelist, update, russo, puzonik">
+  <meta name="theme-color" content="#61c2ff">
+  <!--------------------------- Google Analytics --------------------------------->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3P0B7QDHS"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() {dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-S3P0B7QDHS')</script>
+</head>
+
+<body>
+  <header></header>
+  <div id="loading-screen"><img src="assets/loading.gif" alt="Loading..."></div>
+  <!--------------------------- Content --------------------------------->
+  <main class="bannercontainer pp140">
+    <img class="banner" src="assets/blank.png" style="background-image: url('assets/banner-logo.png');">
+    <h1>The Best Jumping Pets Simulator Value List</h1>
+    <main class="mainupcuted">
+      <button class="ciu" onclick="window.location.href='pets'"> Check Pets Values! </button>
+    </main>
+  </main>
+  <!--------------------------- Countdown --------------------------------->
+  <main class="updatecountdown">
+    <h1>JUMPING PETS SIMULATOR UPDATE COUNTDOWN</h1>
+    <div class="countdown-container">
+      <div class="updateblock">
+        <div class="countdownv" id="days">...</div>
+        <div class="countdownd">Days</div>
+      </div>
+      <div class="updateblock">
+        <div class="countdownv" id="hours">...</div>
+        <div class="countdownd">Hours</div>
+      </div>
+      <div class="updateblock">
+        <div class="countdownv" id="minutes">...</div>
+        <div class="countdownd">Min</div>
+      </div>
+      <div class="updateblock">
+        <div class="countdownv" id="seconds">...</div>
+        <div class="countdownd">Sec</div>
+      </div>
+    </div>
+  </main>
+<!------------------------- Pet Of the Day ------------------------------>
+  <main class="maintext">
+    <h1 id="rainbow">Pet Of The Day!</h1>
+  </main>
+  
+  <main class="potd">
+    <div class="container-potd">
+      <table class="table">
+        <tbody id="table-content"></tbody>
+      </table>
+    </div>
+  </main>
+  <!--------------------------- Popular Pets --------------------------------->
+  <main class="maintext">
+    <h1>Popular Pets</h1>
+  </main>
+
+  <main>
+    <div class="container">
+      <table class="table">
+        <tbody id="table-content"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <!--------------------------- ScriptLoader --------------------------------->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+  <script src="js/sheetsPlacement.js"></script>
+  <script src="js/autoPrice.js"></script>
+  <script src="js/updateCountdown.js"></script>
+  <script src="js/sortPets.js"></script>
+  <script src="js/potd.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/header.js"></script>
+  <!-------------------------------------------------------------------------->
+</body>
+
+</html>

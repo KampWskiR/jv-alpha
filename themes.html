@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JumpingValue » Themes</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="assets/logoup.png">
+</head>
+
+<body>
+  <header></header>
+  <div id="loading-screen"><img src="../assets/loading.gif" alt="Loading..."></div>
+  <main class="bannercontainer">
+    <img class="banner" src="assets/blank.png" style="background-image: url('assets/banner-logo.png');">
+    <div class="theme">
+      <img class="themeimg"
+        src="https://media.discordapp.net/attachments/1074365071708393483/1115739218199724172/image.png?width=680&height=382">
+      <h1>Cloud Theme</h1>
+      <h2>By: JumpingValue</h2>
+      <h3>Description</h3>
+      <h4>Default look of JumpingValue inspired by the first world of the game.</h4>
+      <hr>
+      <button class="ciu" id="light" onclick="switchTheme('light')">Apply</button>
+    </div>
+
+    <div class="theme">
+      <img class="themeimg"
+        src="https://media.discordapp.net/attachments/1074365071708393483/1115739384294158477/image.png?width=680&height=382">
+      <h1>Galaxy Theme</h1>
+      <h2>By: JumpingValue</h2>
+      <h3>Description</h3>
+      <h4>Dark look of JumpingValue inspired by the galaxy world from the game.</h4>
+      <hr>
+      <button class="ciu" id="dark" onclick="switchTheme('dark')">Apply</button>
+    </div>
+
+    <div>
+    <div>
+      <label for="customCssInput">Custom CSS Code:</label>
+      <textarea class="longtextform" id="customCssInput"></textarea>
+      <button onclick="applyCustomCss()">Apply</button>
+    </div>
+    </div>
+  </main>
+  <script src="js/header.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+
+</html>
