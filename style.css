@@ -301,7 +301,6 @@ header {
   background-color: #ffffff;
   border-radius: 50px;
   outline: none;
-  display: inline-block;
   line-height: 50px;
   vertical-align: middle;
   transition: transform 0.5s ease, margin-left 0.5s ease, margin-right 0.5s ease;
