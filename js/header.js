@@ -1,6 +1,6 @@
 let header = "";
 
-header += `<img class="logo" src="assets/LogoNew.png" onclick="window.location.href='index'">`;
+header += `<img class="logo" src="ssets/LogoNew.png" onclick="window.location.href='../'">`;
 header += `<div class="nav">`;
   header += `<a class="NavButton NBPets basic" href="pets"">Pets</a>`;
   header += `<a class="NavButton NBMounts blue" href="mounts"">Mounts</a>`;
