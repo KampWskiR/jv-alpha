@@ -43,7 +43,7 @@ function displayResult2(response) {
 
     index = index + 1
     tableBody += `<div class='petblock' category='${category}' main='${main}'>`;
-    tableBody += `<img class='pet' src='../assets/pets/${petname}.png'>`;
+    tableBody += `<img class='pet' src='assets/pets/${petname}.png'>`;
     switch (true) {
       case petname === "Cowboy Capybara" || petname === "King Corgi" || petname === "Red Dragon" || petname === "UFO Capybara" || petname === "UFO Cow" || petname === "Cute o Bot":
         tableBody += `<p class='petname ${type}'>${petname}<a class='trendbox'><img class='trend' src='${trendimg}'></a></p>`;
@@ -89,7 +89,7 @@ function displayResult2(response) {
         tableBody += `<p order='${index}' id='number' type='Golden' min='${minvalue * 9}' max='${maxvalue * 9}' value='${value * 9}'><img class='gem' src='assets/gem.png'></p>`;
         break;
     }
-        if (main === "potd" && window.location.pathname === "/pets/") tableBody += '<h1 id="rainbow">Pet Of The Day!</h1>'; tableBody += '<script src="js/potd.js"></script>';
+        if (main === "potd" && window.location.pathname === "/pets") tableBody += '<h1 id="rainbow">Pet Of The Day!</h1>'; tableBody += '<script src="js/potd.js"></script>';
         tableBody += `</div>`;
   });
 
