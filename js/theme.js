@@ -40,7 +40,10 @@ function loadCSS(filename, callback) {
 function showContent() {
   var loadingScreen = document.getElementById("loading-screen");
   if (loadingScreen) {
-    loadingScreen.remove();
+    loadingScreen.style.opacity = "0";
+    setTimeout(function() {
+      loadingScreen.remove();
+    }, 500);
   }
 }
 
