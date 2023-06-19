@@ -2,7 +2,7 @@ function loadTheme() {
   var theme = localStorage.getItem("theme");
   switch (theme) {
     case "dark":
-      loadCSS("../darkmode.css", function() {
+      loadCSS("darkmode.css", function() {
         showContent();
       });
       break;
