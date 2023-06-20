@@ -42,8 +42,8 @@ function displayResult2(response) {
       break;
     }
     
-    tableBody += `<main class="mountcontainer" style="background-image: url('../assets/mounts/bg/${mountname}.png'); background-size: 1600px;">`;
-    tableBody += `<div class="circle circle${bgcolor}"><img class="mountimg" src="../assets/mounts/${mountname}.png"></div>`;
+    tableBody += `<main class="mountcontainer" style="background-image: url('assets/mounts/bg/${mountname}.png'); background-size: 1600px;">`;
+    tableBody += `<div class="circle circle${bgcolor}"><img class="mountimg" src="assets/mounts/${mountname}.png"></div>`;
     tableBody += `<div class="mr">`;
     tableBody += `<div class="mountName" style="z-index: 90">${mountname}</div>`;
     tableBody += `<div class="right-align" style="z-index: 90; display: inline-block; float: right;"> ${mountdata}</div>`;
