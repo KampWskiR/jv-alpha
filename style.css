@@ -73,23 +73,27 @@ main {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #333;
+  background-color: #c2c2c2;
   padding: 5px;
+  box-shadow: 0px 10px 0px #c2c2c2;
+  border-radius: 50px;
   list-style-type: none;
 }
 
 .NBMore:hover .list {
   display: block;
+  text-decoration: none;
 }
 
 .list li {
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 .list li a {
   font-size: 16px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .list li a:hover {
