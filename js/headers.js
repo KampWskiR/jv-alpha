@@ -6,11 +6,10 @@ header += `<div class="nav">`;
   header += `<a class="NBPets basic" href="pets">Pets</a>`;
   header += `</div>`
   header += `<div class="NavButton">`
-  header += `<a class="NavButton NBMounts blue" href="mounts">Mounts</a>`;
-  
+  header += `<a class="NBMounts blue" href="mounts">Mounts</a>`;
   header += `</div>`
       header += `<div class="NavButton NBMore">`;
-      header += `<p>More</p>`;
+      header += `<a>More</a>`;
       header += `<ul class="list">`;
       header += `<li><a href="credits">Credits</a></li>`;
       header += `<li><a href="changelog">Changelog</a></li>`;
