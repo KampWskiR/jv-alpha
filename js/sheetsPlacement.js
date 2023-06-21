@@ -47,15 +47,15 @@ function displayResult2(response) {
     switch (true) {
       case petname === "Cowboy Capybara" || petname === "King Corgi" || petname === "Red Dragon" || petname === "UFO Capybara" || petname === "UFO Cow" || petname === "Cute o Bot":
         tableBody += `<p class='petname ${type}'>${petname}<a class='trendbox'><img class='trend' src='${trendimg}'></a></p>`;
-        tableBody += `<p order='${index}' sortable='true' id='number' type='Value' min='${minvalue}' max='${maxvalue}' valuesort='${value}' value='${value}'><img class='gem' src='assets/gem.png'></p>`;
-        tableBody += `<p id='number' type='Silver' min='${minvalue * 5}' max='${maxvalue * 5}' value='${value * 5}'><img class='gem' src='assets/gem.png'></p>`;
-        tableBody += `<p id='number' type='Golden' min='${minvalue * 25}' max='${maxvalue * 25}' value='${value * 25}'><img class='gem' src='assets/gem.png'></p>`;
+        tableBody += `<p order='${index}' sortable='true' id='number' type='Value' class='pricegui' min='${minvalue}' max='${maxvalue}' valuesort='${value}' value='${value}'><img class='gem' src='assets/gem.png'></p>`;
+        tableBody += `<p id='number' type='Silver' class='pricegui' min='${minvalue * 5}' max='${maxvalue * 5}' value='${value * 5}'><img class='gem' src='assets/gem.png'></p>`;
+        tableBody += `<p id='number' type='Golden' class='pricegui' min='${minvalue * 25}' max='${maxvalue * 25}' value='${value * 25}'><img class='gem' src='assets/gem.png'></p>`;
         tableBody += `<p id='demand' demand='${demand}'/>`;
         break;
 
       case type === "limited" || petname === "Beta Cat":
         tableBody += `<p class='petname ${type}'>${petname}<a class='trendbox'><img class='trend' src='${trendimg}'></a></p>`;
-        tableBody += `<p order='${index}' sortable='true' id='number' type='Value' min='${minvalue}' max='${maxvalue}' valuesort='${value}' value='${value}'><img class='gem' src='assets/gem.png'></p>`;
+        tableBody += `<p order='${index}' sortable='true' class='pricegui' id='number' type='Value' min='${minvalue}' max='${maxvalue}' valuesort='${value}' value='${value}'><img class='gem' src='assets/gem.png'></p>`;
         tableBody += `<p id='demand' demand='${demand}'/>`;
         break;
 
