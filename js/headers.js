@@ -1,5 +1,4 @@
 let header = "";
-
 header += `<img class="logo" src="assets/LogoNew.png" onclick="window.location.href='../'">`;
 header += `<div class="nav">`;
   header += `<div class="NavButton">`
