@@ -2,8 +2,13 @@ let header = "";
 
 header += `<img class="logo" src="assets/LogoNew.png" onclick="window.location.href='../'">`;
 header += `<div class="nav">`;
-  header += `<a class="NavButton NBPets basic" href="pets">Pets</a>`;
+  header += `<div class="NavButton">`
+  header += `<a class="NBPets basic" href="pets">Pets</a>`;
+  header += `</div>`
+  header += `<div class="NavButton">`
   header += `<a class="NavButton NBMounts blue" href="mounts">Mounts</a>`;
+  
+  header += `</div>`
       header += `<div class="NavButton NBMore">`;
       header += `<p>More</p>`;
       header += `<ul class="list">`;
