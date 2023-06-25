@@ -35,7 +35,7 @@ body {
 }
 
 #loading-screen img {
-  width: 300px; /* adjust the size as needed */
+  width: 300px;
 }
 
 main {
@@ -293,6 +293,9 @@ header {
 .NavButton {
   box-shadow: 0px 10px 0px #c2c2c2;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   float: left;
   width: auto;
   height: 50px;
@@ -313,6 +316,12 @@ header {
   box-shadow: 0px 10px 0px #969696;
   transform: scale(1.1);
   margin-left: 15px;
+}
+
+.Nava {
+  text-decoration: none;
+  color: inherit;
+  margin-top: -2px;
 }
 
 @media (max-width: 900px) {
@@ -337,22 +346,25 @@ header {
     bottom: 0;
     margin-top: 110px;
   }
+  
+  .NBMore:hover list {
+	  display: grid;
+  }
 
   .NavButton {
     height: 70px;
-    width: 70px;
+    width: 55px;
     margin-left: 5%;
     border-radius: 20px;
     background-size: 70px;
     box-shadow: 0px 0px 0px #c2c2c2;
-    display: flex;
-    align-items: center;
+	font-size: 0;
   }
-
-  .Nava {
-    text-decoration: none;
-    color: inherit;
-  }
+  
+  .list {
+  margin-top: -120px;
+  text-decoration: none;
+}
 
 
   .NBPets {
@@ -377,8 +389,6 @@ header {
 
   .NBMore {
     background-image: url("assets/symbolMore.png");
-    height: 70px;
-    width: 70px;
   }
 
   .NavButton:hover {

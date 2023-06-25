@@ -1,14 +1,14 @@
 let header = "";
 header += `<img class="logo" src="assets/LogoNew.png" onclick="window.location.href='../'">`;
 header += `<div class="nav">`;
-  header += `<div class="NavButton">`
-  header += `<a class="Nava NBPets basic" href="pets">Pets</a>`;
+  header += `<div class="NavButton NBPets">`
+  header += `<a class="Nava basic" href="pets">Pets</a>`;
   header += `</div>`
-  header += `<div class="NavButton">`
-  header += `<a class="NavaNBMounts blue" href="mounts">Mounts</a>`;
+  header += `<div class="NavButton NavaNBMounts">`
+  header += `<a class="Nava blue" href="mounts">Mounts</a>`;
   header += `</div>`
       header += `<div class="NavButton NBMore">`;
-      header += `<a class="Nava">More</a>`;
+      header += `<a class="Nava rare">More</a>`;
       header += `<ul class="list">`;
       header += `<li><a href="credits">Credits</a></li>`;
       header += `<li><a href="changelog">Changelog</a></li>`;
