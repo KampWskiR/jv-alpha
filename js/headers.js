@@ -4,7 +4,7 @@ header += `<div class="nav">`;
   header += `<div class="NavButton NBPets">`
   header += `<a class="Nava basic" href="pets">Pets</a>`;
   header += `</div>`
-  header += `<div class="NavButton NavaNBMounts">`
+  header += `<div class="NavButton NBMounts">`
   header += `<a class="Nava blue" href="mounts">Mounts</a>`;
   header += `</div>`
       header += `<div class="NavButton NBMore">`;
