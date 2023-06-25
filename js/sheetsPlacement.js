@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = "AIzaSyAFHVhDHl4Nix_Y65Qtspb__fCZa4e_gKQ";
 
 function strengthShort() {
   var strengths = document.querySelectorAll(".strength");
@@ -112,7 +112,7 @@ function displayResult2(response) {
 }
 
 function loadData() {
-  const spreadsheetId = process.env.PET_DB;
+  const spreadsheetId = "1L2tW-v2oj6K0tMAlXd6kOx5cmD_r3gwazGK7ddZKWnU";
   const range = "A:Z";
   getPublicValues({ spreadsheetId, range }, displayResult2);
 }
