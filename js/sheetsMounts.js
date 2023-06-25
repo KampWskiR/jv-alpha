@@ -1,6 +1,4 @@
-                
-    // Your API KEY
-    const API_KEY = "AIzaSyAFHVhDHl4Nix_Y65Qtspb__fCZa4e_gKQ";
+const API_KEY = process.env.API_KEY;
 
 function displayResult2(response) {
   const petnameIndex = response.result.values[0].indexOf("petname");
@@ -55,17 +53,9 @@ function displayResult2(response) {
   document.body.innerHTML += tableBody;
 }
 
-function loadData() {
-  // Spreadsheet ID
-  const spreadsheetId = "10duD88A4L-MR0QQBEXCa4C2QNfG4rCY4i2r4l1ptEno";
-  const range = "A:Z";
-  getPublicValues({ spreadsheetId, range }, displayResult2);
-}
-
-
     function loadData() {
       // Spreadsheet ID
-      const spreadsheetId = "10duD88A4L-MR0QQBEXCa4C2QNfG4rCY4i2r4l1ptEno";
+      const spreadsheetId = process.env.MOUNT_DB;
       const range = "A:Z";
       getPublicValues({ spreadsheetId, range }, displayResult2);
     }
